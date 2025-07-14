@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
         chatMessages.scrollTop = chatMessages.scrollHeight;
 
         try {
-            const response = await fetch("http://localhost:3000/groq", {
+            const response = await fetch("https://buda-52jr.onrender.com", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
